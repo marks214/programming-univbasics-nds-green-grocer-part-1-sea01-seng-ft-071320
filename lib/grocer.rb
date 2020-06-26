@@ -2,12 +2,14 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-  count = 0
+  i = 0
+  j = 0
   collection.each do |aoh|
+    i += 1
     aoh.each do |key, value|
-      count += 1
+      j += 1
       if value == name
-        puts collection[count]
+        puts collection[i][j]
       end
   end
 end
