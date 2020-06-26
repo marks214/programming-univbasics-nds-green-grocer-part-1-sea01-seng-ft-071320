@@ -6,7 +6,6 @@ def find_item_by_name_in_collection(name, collection)
     puts aoh[:name]
 end
 
-  end
 
 end
 
