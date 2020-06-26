@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   collection.each do |aoh|
     aoh.each do |key, value|
-      puts "aoh #{aoh}"
+      puts "aoh #{aoh[:value]}"
       puts "value #{value}"
       if aoh[:key] == name
         puts
