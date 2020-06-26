@@ -2,6 +2,7 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
+  puts name
   collection.each do |aoh|
     aoh.each do |key, value|
       if value == name
