@@ -2,11 +2,12 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
+  puts collection[:name]
   collection.each do |aoh|
     aoh.each do |key, value|
       if key == name
-    puts value
-  end
+        puts value
+      end
   end
 end
 
