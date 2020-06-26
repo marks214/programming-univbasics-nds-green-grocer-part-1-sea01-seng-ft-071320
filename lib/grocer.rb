@@ -2,10 +2,11 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   # Consult README for inputs and outputs
-  collection.each do |key, value|
-    puts "key: #{key}"
-    puts "value: #{value}"
-
+  collection.each do |aoh|
+    aoh.each do |key, value|
+    end
+puts key
+puts value
 
   end
 
