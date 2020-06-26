@@ -5,8 +5,9 @@ def find_item_by_name_in_collection(name, collection)
   puts name
   collection.each do |aoh|
     aoh.each do |key, value|
+      puts aoh[:key]
       if aoh[:key] == name
-        puts aoh
+        puts
       end
   end
 end
